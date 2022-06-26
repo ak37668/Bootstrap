@@ -7,16 +7,23 @@
     <title>buttons</title>
     <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
     <style>
-        #red{ background-color: red;}
+        #red{ background-color: red;
+            height: 500px;
+        }
+        #green{
+            background-color: aquamarine;
+            height: 100px;
+
+        }
     </style>
   
 </head>
 <body>
-    <div class="container" id="red">
-        <p>hello world</p>
-        <div class="col-2">ashok</div>
-        <div class="col-8">ashok meena</div>
-        <div class="col-2">meena</div>
+    <div class="container-fluid" id="red">
+        <div class="row" id="green">row</div>
+        <div class="bg-primary">hello</div>
+        <div class="bg-danger">hello</div>
+        <div class="bg-green" text-white>hello</div>
     </div>    
       <script src="/bootstrap/js/bootstrap.min.js"></script>
 </body>
